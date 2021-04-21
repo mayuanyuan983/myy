@@ -1,0 +1,22 @@
+{
+  "name": "myy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pull": "git pull",
+    "localDev": "vuepress dev docs --host 127.0.0.1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.5.4",
+    "@vuepress/plugin-back-to-top": "^1.5.4",
+    "v-dialogs": "^2.1.4"
+  }
+}

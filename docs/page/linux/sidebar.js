@@ -1,0 +1,84 @@
+module.exports = [
+	{
+		title:'首页',
+		path:'/page/linux/'
+	},
+	{
+		title:'4A远程部署命令',
+		path:'/page/linux/notes/0'
+	},
+	{
+		title:'linux连接数据库',
+		collapsable: true,
+		children:[
+			{
+				title:'linux连接Mysql数据库',
+				path:'/page/linux/notes/1'
+			},
+			{
+				title:'linux连接Redis数据库',
+				path:'/page/linux/notes/2'
+			},
+		]
+	},
+	{
+		title:'Linux命令',
+		collapsable: true,
+		children:[
+			{
+				title:'linux命令',
+				path:'/page/linux/notes/3'
+			},
+			{
+				title:'JAR启动命令',
+				path:'/page/linux/notes/4'
+			},
+			{
+				title:'Linux find命令',
+				path:'/page/linux/notes/5'
+			},
+			{
+				title:'Linux基本命令',
+				path:'/page/linux/notes/6'
+			},
+			{
+				title:'linux发送get/post请求',
+				path:'/page/linux/notes/7'
+			},
+			{
+				title:'chmod授权',
+				path:'/page/linux/notes/10'
+			},
+			{
+				title:'Linux压缩、解压命令',
+				path:'/page/linux/notes/13'
+			},
+			{
+				title:'linux 创建连接命令 ln -s 软链接',
+				path:'/page/linux/notes/14'
+			},
+		]
+	},
+	{
+		title:'其他',
+		collapsable: true,
+		children:[
+			{
+				title:'定时任务实现删除功能',
+				path:'/page/linux/notes/8'
+			},
+			{
+				title:'空',
+				path:'/page/linux/notes/9'
+			},
+			{
+				title:'Xmanager',
+				path:'/page/linux/notes/11'
+			},
+			{
+				title:'空',
+				path:'/page/linux/notes/12'
+			},
+		]
+	},
+]

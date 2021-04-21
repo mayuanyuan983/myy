@@ -1,0 +1,10 @@
+{
+    "workbench.tree.renderIndentGuides": "always",
+    "terminal.integrated.shellArgs.windows": null,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#59131D",
+        "titleBar.activeBackground": "#7C1B29",
+        "titleBar.activeForeground": "#FEFBFB"
+    },
+    "git.ignoreLimitWarning": true
+}
