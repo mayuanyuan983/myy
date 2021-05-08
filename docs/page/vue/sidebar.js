@@ -42,6 +42,7 @@ module.exports = [{
 			'/page/vue/notes/electron/4',
 			'/page/vue/notes/electron/5',
 			'/page/vue/notes/electron/6',
+			'/page/vue/notes/electron/7',
 		]
 	},
 	{
