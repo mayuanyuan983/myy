@@ -8,13 +8,14 @@ module.exports = [
             {
                 text: '代码',
 				items: [
+                    {text: '学习资料', link: '/page/java/study/'},
                     {text: 'NodeJs', link: '/page/nodejs/'},
                     {text: 'Vue', link: '/page/vue/'},
                     {text: 'JAVA各版本', link: '/page/java/jdk/'},
                     {text: 'Java学习', link: '/page/java/java/'},
                     {text: 'Spring', link: '/page/java/spring/'},
                     {text: 'SpringBoot', link: '/page/java/springboot/'},
-                    {text: 'Hutool', link: '/page/java/hutool/'}
+                    {text: 'Hutool', link: '/page/java/hutool/'},
 				]
             },
             {
