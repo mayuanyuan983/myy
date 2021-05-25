@@ -16,6 +16,7 @@ module.exports = [{
 		collapsable: false,
 		children: [
 			'/page/vue/notes/5',
+			'/page/vue/notes/8',
 		]
 	},
 	{
