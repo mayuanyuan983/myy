@@ -18,5 +18,8 @@
     "@vuepress/plugin-active-header-links": "^1.5.4",
     "@vuepress/plugin-back-to-top": "^1.5.4",
     "v-dialogs": "^2.1.4"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.2"
   }
 }

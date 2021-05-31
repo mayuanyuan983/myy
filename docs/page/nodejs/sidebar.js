@@ -9,6 +9,7 @@ module.exports = [
 	  children:[
 		'/page/nodejs/notes/one',
 		'/page/nodejs/notes/two',
+		'/page/nodejs/notes/1',
 	  ]
 	},
 	{
