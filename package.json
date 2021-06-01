@@ -19,6 +19,7 @@
     "@vuepress/plugin-back-to-top": "^1.5.4"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "element-ui": "^2.15.2"
   }
 }

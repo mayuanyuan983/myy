@@ -71,6 +71,14 @@ export default {
       },
     },
     mounted() {
+      const _this = this;
+      const API_PROXY = 'https://bird.ioliu.cn/v1/?url='
+      _this.$axios.get(API_PROXY + 'http://www.szse.cn/api/report/ShowReport/data?SHOWTYPE=JSON&CATALOGID=1826&TABKEY=tab1&txtDmorjc=399001&txtDate=2021-05-28&txtEndDate=2021-05-28&random=0.18374597387061065')
+      .then(function (res) {
+        console.log(res)
+      }, function (error) {
+        console.log(error)
+      })
     }
 }
 </script>
