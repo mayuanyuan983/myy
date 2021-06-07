@@ -13,8 +13,8 @@
     placeholder="选择日期">
   </el-date-picker>
   <br/>
-  深证成指(399001):<el-input v-model="num1" :readonly="true"></el-input>
-  中小100(399005):<el-input v-model="num2" :readonly="true"></el-input>
+  深证成指(399001):<el-input v-model="num1"></el-input>
+  中小100(399005):<el-input v-model="num2"></el-input>
   报名人数:<el-input v-model="num3"></el-input>
   中签数量:<el-input v-model="num4"></el-input>
   您的号码:<el-input v-model="num5"></el-input>
