@@ -4,10 +4,6 @@ module.exports = [
 		path:'/page/linux/'
 	},
 	{
-		title:'4A远程部署命令',
-		path:'/page/linux/notes/0'
-	},
-	{
 		title:'linux连接数据库',
 		collapsable: true,
 		children:[
