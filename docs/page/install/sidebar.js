@@ -20,6 +20,8 @@ module.exports = [
 			'/page/install/notes/13',
 			'/page/install/notes/14',
 			'/page/install/notes/16',
+			'/page/install/notes/20',
+			'/page/install/notes/21',
 		]
 	},
 	{

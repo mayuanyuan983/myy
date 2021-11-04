@@ -25,6 +25,7 @@ module.exports = {
 	'/page/java/RabbitMQ': require('../page/java/RabbitMQ/sidebar'),
 	'/page/java/spring': require('../page/java/spring/sidebar'),
 	'/page/java/jdk': require('../page/java/jdk/sidebar'),
+	'/page/java/offer': require('../page/java/offer/sidebar'),
 
 	'/page/package/ant': require('../page/package/ant/sidebar'),
 	'/page/package/maven': require('../page/package/maven/sidebar'),

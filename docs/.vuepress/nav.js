@@ -14,7 +14,8 @@ module.exports = [
                     {text: 'Java学习', link: '/page/java/java/'},
                     {text: 'Spring', link: '/page/java/spring/'},
                     {text: 'SpringBoot', link: '/page/java/springboot/'},
-                    {text: 'Hutool', link: '/page/java/hutool/'}
+                    {text: 'Hutool', link: '/page/java/hutool/'},
+                    {text: 'JAVA面试', link: '/page/java/offer/'},
 				]
             },
             {
