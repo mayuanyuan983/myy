@@ -7,8 +7,8 @@ module.exports = [
 	  title:'第一章',
 	  collapsable: false,
 	  children:[
-		'/page/package/ant/notes/one',
-		'/page/package/ant/notes/two',
+		'/page/package/ant/notes/1',
+		'/page/package/ant/notes/2',
 	  ]
 	}
 ]

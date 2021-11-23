@@ -7,8 +7,8 @@ module.exports = [
 	  title:'第一章',
 	  collapsable: true,
 	  children:[
-		'/page/java/springboot/notes/one',
-		'/page/java/springboot/notes/two',
+		'/page/java/springboot/notes/10',
+		'/page/java/springboot/notes/11',
 		'/page/java/springboot/notes/3',
 		'/page/java/springboot/notes/4',
 		'/page/java/springboot/notes/5',
@@ -18,6 +18,7 @@ module.exports = [
 		'/page/java/springboot/notes/1',
 		'/page/java/springboot/notes/2',
 		'/page/java/springboot/notes/9',
+		'/page/java/springboot/notes/12',
 	  ]
 	}
 ]

@@ -2,8 +2,6 @@ module.exports = {
 	//对多模块的管控，利于维护
 	//第一个模块下面的侧边栏
 
-	'/index': require('../index/sidebar'),//示例页面
-
 	'/page/install': require('../page/install/sidebar'),
 
 	'/page/nodejs': require('../page/nodejs/sidebar'),

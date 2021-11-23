@@ -7,10 +7,10 @@ module.exports = [
 	  title:'第一章',
 	  collapsable: true,
 	  children:[
-		'/page/nginx/notes/one',
-		'/page/nginx/notes/two',
 		'/page/nginx/notes/1',
 		'/page/nginx/notes/2',
+		'/page/nginx/notes/3',
+		'/page/nginx/notes/4',
 	  ]
 	}
 ]

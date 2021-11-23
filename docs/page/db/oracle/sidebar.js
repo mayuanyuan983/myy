@@ -10,6 +10,7 @@ module.exports = [
 		'/page/db/oracle/notes/1',
 		'/page/db/oracle/notes/2',
 		'/page/db/oracle/notes/3',
+		'/page/db/oracle/notes/4',
 	  ]
 	}
 ]
