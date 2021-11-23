@@ -1,7 +1,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-git pull
+git pull origin master
 #git pull -f git@github.com:mayuanyuan983/myy.git master
 
 # 生成静态文件
@@ -28,5 +28,4 @@ cd ../
 git add -A
 git commit -m '自动化部署脚本提交'
 git push -f git@github.com:mayuanyuan983/myy.git master
-
 # cd –

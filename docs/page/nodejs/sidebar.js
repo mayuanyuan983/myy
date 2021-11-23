@@ -10,6 +10,7 @@ module.exports = [
 		'/page/nodejs/notes/one',
 		'/page/nodejs/notes/two',
 		'/page/nodejs/notes/1',
+		'/page/nodejs/notes/4',
 	  ]
 	},
 	{
