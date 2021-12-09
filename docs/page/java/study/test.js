@@ -20,64 +20,24 @@ async function getNum(code) {
         );
     return num;
 }
+init();
 
 async function init() {
-    // let t1 = await getNum(399001);
-    // let t2 = await getNum(399005);
-    // console.log(t1, t2)
-    tt(14862.60, 9574.05);
+    let t1 = await getNum(399001);
+    let t2 = await getNum(399005);
+    console.log(t1, t2)
+    tt(t1, t2);
 }
 
-function dateFormat(fmt, date) {
-    let ret;
-    const opt = {
-        "Y+": date.getFullYear().toString(),        // 年
-        "m+": (date.getMonth() + 1).toString(),     // 月
-        "d+": date.getDate().toString(),            // 日
-        "H+": date.getHours().toString(),           // 时
-        "M+": date.getMinutes().toString(),         // 分
-        "S+": date.getSeconds().toString()          // 秒
-        // 有其他格式化字符需求可以继续添加，必须转化成字符串
-    };
-    for (let k in opt) {
-        ret = new RegExp("(" + k + ")").exec(fmt);
-        if (ret) {
-            fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))
-        };
-    };
-    return fmt;
-}
 
-init();
-// setInterval(() => {
-//     init();
-// }, 1000 * 5);
 
 function tt(t1, t2) {
-    //心-金银套币
-    // let a1 = test(t1, t2, 191188, 2800, 54443);
-    // if (a1) {
-    //     console.log('心-金银套币', dateFormat("YYYY-mm-dd HH:MM", new Date()), t1, t2);
-    // }
-
-    // //心-银币
-    // let a2 = test(t1, t2, 191817, 1500, 142654);
-    // if (a2) {
-    //     console.log('心-银币', dateFormat("YYYY-mm-dd HH:MM", new Date()), t1, t2);
-    // }
-
-    //竹-金银套币
-    let a3 = test(14862.6, 9574.05, 141780, 1200, 37796);
-    // if (a3) {
-    //     console.log('竹-金银套币', dateFormat("YYYY-mm-dd HH:MM", new Date()), t1, t2);
-    // }
-
-    // //竹-银币
-    // let a4 = test(t1, t2, 169067, 1500, 123593);
-
-    // if (a4) {
-    //     console.log('竹-银币', dateFormat("YYYY-mm-dd HH:MM", new Date()), t1, t2);
-    // }
+    if (test(t1, t2, 355048, 20000, 267068)) {
+        console.log('中');
+    }
+    if (test(t1, t2, 355048, 20000, 281492)) {
+        console.log('中');
+    }
 }
 
 function test(zhi, zhong, a, b, c) {

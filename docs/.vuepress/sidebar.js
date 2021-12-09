@@ -2,8 +2,6 @@ module.exports = {
 	//对多模块的管控，利于维护
 	//第一个模块下面的侧边栏
 
-	'/index': require('../index/sidebar'),//示例页面
-
 	'/page/install': require('../page/install/sidebar'),
 
 	'/page/nodejs': require('../page/nodejs/sidebar'),
@@ -25,7 +23,11 @@ module.exports = {
 	'/page/java/RabbitMQ': require('../page/java/RabbitMQ/sidebar'),
 	'/page/java/spring': require('../page/java/spring/sidebar'),
 	'/page/java/jdk': require('../page/java/jdk/sidebar'),
+<<<<<<< HEAD
 	'/page/java/study': require('../page/java/study/sidebar'),
+=======
+	'/page/java/offer': require('../page/java/offer/sidebar'),
+>>>>>>> 3a2646b4a6b91c56dd450d0f30590709f8930768
 
 	'/page/package/ant': require('../page/package/ant/sidebar'),
 	'/page/package/maven': require('../page/package/maven/sidebar'),

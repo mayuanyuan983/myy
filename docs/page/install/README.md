@@ -108,8 +108,6 @@ snipaste截图 windows商店
 
 [东信门户网站](http://urp.eastcom.com) 
 
-[上网认证系统](http://10.0.6.106/ac_portal/default/pc.html?tabs=pwd)
-
 [加班餐](http://10.8.206.127:8888/)
 
 [讯飞言知](http://10.8.3.10:18080/uap-server/login?service=http%3A%2F%2F10.8.3.10%3A18080%2FDroidMe&at=uap)
@@ -126,6 +124,12 @@ snipaste截图 windows商店
 
 [RGB颜色查询对照表](https://www.114la.com/other/rgb.htm)
 
+[Electron](https://www.electronjs.org/)
+
+### 代码规范
+[前端开发规范](https://www.w3cschool.cn/webdevelopment/)
+[前端编码规范](https://www.w3cschool.cn/bdl2e3/)
+
 ### 办公
 
 [石墨文档](https://shimo.im/welcome)
@@ -137,3 +141,14 @@ snipaste截图 windows商店
 [微信测试号登录](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
 
 [小米球内网穿透](http://ngrok.ciqiuwl.cn/)
+<<<<<<< HEAD
+=======
+
+### 购房相关
+[杭州省直公积金](https://p.zjgjj.com/szwsdt/grlogin)
+
+### 教程
+[SQLite数据库版本升级](https://blog.csdn.net/feibendexiaoma/article/details/79526187)
+
+
+>>>>>>> 3a2646b4a6b91c56dd450d0f30590709f8930768

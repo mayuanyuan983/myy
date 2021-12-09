@@ -7,8 +7,6 @@ module.exports = [
 	  title:'第一章',
 	  collapsable: true,
 	  children:[
-		'/page/db/mysql/notes/one',
-		'/page/db/mysql/notes/two',
 		'/page/db/mysql/notes/1',
 		'/page/db/mysql/notes/2',
 		'/page/db/mysql/notes/3',
@@ -17,6 +15,8 @@ module.exports = [
 		'/page/db/mysql/notes/6',
 		'/page/db/mysql/notes/7',
 		'/page/db/mysql/notes/8',
+		'/page/db/mysql/notes/9',
+		'/page/db/mysql/notes/10',
 	  ]
 	}
 ]

@@ -16,6 +16,10 @@ module.exports = [
                     {text: 'Spring', link: '/page/java/spring/'},
                     {text: 'SpringBoot', link: '/page/java/springboot/'},
                     {text: 'Hutool', link: '/page/java/hutool/'},
+<<<<<<< HEAD
+=======
+                    {text: 'JAVA面试', link: '/page/java/offer/'},
+>>>>>>> 3a2646b4a6b91c56dd450d0f30590709f8930768
 				]
             },
             {

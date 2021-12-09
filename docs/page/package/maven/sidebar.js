@@ -7,8 +7,8 @@ module.exports = [
 	  title:'第一章',
 	  collapsable: false,
 	  children:[
-		'/page/package/maven/notes/one',
-		'/page/package/maven/notes/two',
+		'/page/package/maven/notes/1',
+		'/page/package/maven/notes/2',
 	  ]
 	}
 ]

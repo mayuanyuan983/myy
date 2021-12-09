@@ -7,8 +7,8 @@ module.exports = [
 	  title:'第一章',
 	  collapsable: false,
 	  children:[
-		'/page/wechat/notes/one',
-		'/page/wechat/notes/two',
+		'/page/wechat/notes/1',
+		'/page/wechat/notes/2',
 		'/page/wechat/notes/3',
 		'/page/wechat/notes/4',
 	  ]
