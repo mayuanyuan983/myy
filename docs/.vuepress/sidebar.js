@@ -15,6 +15,7 @@ module.exports = {
 	'/page/db/mysql': require('../page/db/mysql/sidebar'),
 	'/page/db/sql': require('../page/db/sql/sidebar'),
 	'/page/db/oracle': require('../page/db/oracle/sidebar'),
+	'/page/db/h2': require('../page/db/h2/sidebar'),
 
 	'/page/java/java': require('../page/java/java/sidebar'),
 	'/page/java/springboot': require('../page/java/springboot/sidebar'),
@@ -23,12 +24,8 @@ module.exports = {
 	'/page/java/RabbitMQ': require('../page/java/RabbitMQ/sidebar'),
 	'/page/java/spring': require('../page/java/spring/sidebar'),
 	'/page/java/jdk': require('../page/java/jdk/sidebar'),
-<<<<<<< HEAD
 	'/page/java/study': require('../page/java/study/sidebar'),
-=======
 	'/page/java/offer': require('../page/java/offer/sidebar'),
->>>>>>> 3a2646b4a6b91c56dd450d0f30590709f8930768
-
 	'/page/package/ant': require('../page/package/ant/sidebar'),
 	'/page/package/maven': require('../page/package/maven/sidebar'),
 }

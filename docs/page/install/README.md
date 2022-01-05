@@ -141,8 +141,6 @@ snipaste截图 windows商店
 [微信测试号登录](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
 
 [小米球内网穿透](http://ngrok.ciqiuwl.cn/)
-<<<<<<< HEAD
-=======
 
 ### 购房相关
 [杭州省直公积金](https://p.zjgjj.com/szwsdt/grlogin)
@@ -150,5 +148,3 @@ snipaste截图 windows商店
 ### 教程
 [SQLite数据库版本升级](https://blog.csdn.net/feibendexiaoma/article/details/79526187)
 
-
->>>>>>> 3a2646b4a6b91c56dd450d0f30590709f8930768
