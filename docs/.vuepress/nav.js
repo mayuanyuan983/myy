@@ -1,8 +1,5 @@
 module.exports = [
     {
-        text: '百度', link: 'https://www.baidu.com/'
-    },
-    {
         text: '技术学习',
 		items: [
             {
@@ -39,39 +36,6 @@ module.exports = [
                     {text: '临时存档', link: '/page/bak/'},
 				]
             },
-        ]
-    },
-    {
-        text: '工具箱',
-        items: [
-            {
-                text: '常用',
-				items: [
-                    {text: '石墨文档', link: 'https://shimo.im/welcome'},
-                    {text: '全栈学习', link: 'https://q.shanyue.tech/'},
-                    
-				]
-            },
-			{
-                text: '在线编辑',
-				items: [
-					{text: '图片压缩', link: 'https://tinypng.com/'}
-				]
-            },
-			{
-                text: '在线服务',
-				items: [
-					{text: '阿里云', link: 'https://www.aliyun.com/'},
-					{text: '腾讯云', link: 'https://cloud.tencent.com/'}
-				]
-            },
-			{
-                text: '博客指南',
-				items: [
-					{text: '掘金', link: 'https://juejin.im/'},
-					{text: 'CSDN', link: 'https://blog.csdn.net/'}
-				]
-            }
         ]
     }
 ]
