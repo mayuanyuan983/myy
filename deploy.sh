@@ -11,7 +11,7 @@ vuepress build docs
 cd dist
 
 # 如果是发布到自定义域名
-echo 'myy221.top' > CNAME
+echo 'github.myy221.top' > CNAME
 
 git init
 git checkout --orphan gh-pages
