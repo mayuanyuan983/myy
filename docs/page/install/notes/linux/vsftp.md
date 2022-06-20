@@ -1,5 +1,11 @@
 # Linux 下vsftp安装说明
 
+## 下载地址
+
+首先检查是否安装过： rpm -qa | grep vsftpd
+
+http://rpmfind.net/linux/rpm2html/search.php?query=vsftpd(x86-64)
+
 ## 安装FTP服务
 
 1. 上传vsftpd-3.0.2-28.el7.x86_64.rpm文件到目录

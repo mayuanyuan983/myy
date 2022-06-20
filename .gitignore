@@ -1,3 +1,5 @@
 node_modules
 dist
 upload.sh
+dist.tar.gz
+.vscode

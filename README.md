@@ -1,12 +1,5 @@
 # 说明
 
-yarn global add vuepress # 或者：npm install -g vuepress
-
-npm run dev
-
-username：mayuanyuan
-password：123456
-
 关闭占用端口进程：
 
 ```bash
@@ -16,15 +9,6 @@ netstat -aon|findstr 8080
 tasklist|findstr "12632"
 # 强制杀死进程
 taskkill /F /pid 12632
-```
-
-bat脚本
-
-```bat
-@echo on
-set port=8080
-for /f "tokens=1-5" %%i in ('netstat -ano^|findstr ":%port%"') do taskkill /F /pid %%m
-pause
 ```
 
 快速在每行下面新增空行
