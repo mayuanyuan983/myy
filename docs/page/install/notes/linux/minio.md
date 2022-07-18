@@ -16,6 +16,8 @@ chmod +x minio
 
 vim /etc/default/minio
 
+安装位置修改、账号密码修改、duan'k
+
 ```bash
 MINIO_VOLUMES="/home/minio/data"
 #设置用户名密码 密码最少8位 
@@ -29,7 +31,13 @@ MINIO_OPTS="--address '0.0.0.0:9000' --console-address '0.0.0.0:9001'"
 
 vim /etc/systemd/system/minio.service
 
-WorkingDirectory=/home/minio 为minio安装目录
+安装位置修改
+
+`AssertFileIsExecutable=/home/minio/minio`
+
+`WorkingDirectory=/home/minio`
+
+`ExecStart=/home/minio/minio server $MINIO_OPTS $MINIO_VOLUMES`
 
 ```sh
 [Unit]
