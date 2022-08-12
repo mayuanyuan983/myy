@@ -11,6 +11,7 @@ module.exports = [
 		'/page/nginx/notes/2',
 		'/page/nginx/notes/3',
 		'/page/nginx/notes/4',
+		'/page/nginx/notes/5',
 	  ]
 	}
 ]

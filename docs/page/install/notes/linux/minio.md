@@ -16,7 +16,7 @@ chmod +x minio
 
 vim /etc/default/minio
 
-安装位置修改、账号密码修改、duan'k
+安装位置修改、账号密码修改、端口
 
 ```bash
 MINIO_VOLUMES="/home/minio/data"
@@ -45,6 +45,7 @@ Description=MinIO
 Documentation=https://docs.min.io
 Wants=network-online.target
 After=network-online.target
+
 AssertFileIsExecutable=/home/minio/minio
 
 [Service]

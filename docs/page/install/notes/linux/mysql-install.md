@@ -1,4 +1,4 @@
-# Linux mysql5.7解压版安装
+# Linux mysql安装 5.7解压版
 
 ## 目录位置约定
 

@@ -12,7 +12,7 @@ module.exports = {
 	'/page/project/git': require('../page/project/git/sidebar'),
 
 	'/page/db/redis': require('../page/db/redis/sidebar'),
-	'/page/db/mysql-db': require('../page/db/mysql-db/sidebar'),
+	'/page/db/mysql': require('../page/db/mysql/sidebar'),
 	'/page/db/sql': require('../page/db/sql/sidebar'),
 	'/page/db/oracle': require('../page/db/oracle/sidebar'),
 	'/page/db/h2': require('../page/db/h2/sidebar'),

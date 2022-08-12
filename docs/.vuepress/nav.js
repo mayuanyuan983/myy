@@ -20,7 +20,7 @@ module.exports = [
                 text: '数据库',
 				items: [
                     {text: 'SQL优化', link: '/page/db/sql/'},
-                    {text: 'Mysql', link: '/page/db/mysql-db/'},
+                    {text: 'Mysql', link: '/page/db/mysql/'},
                     {text: 'Oracle', link: '/page/db/oracle/'},
                     {text: 'Redis', link: '/page/db/redis/'},
                     {text: 'H2', link: '/page/db/h2/'},

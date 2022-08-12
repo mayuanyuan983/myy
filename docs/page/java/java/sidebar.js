@@ -99,4 +99,11 @@ module.exports = [
 		  '/page/java/java/notes/30',
 		]
 	},
+	{
+		title:'minio',
+		collapsable: true,
+		children:[
+		  '/page/java/java/notes/minio/1'
+		]
+	},
 ]
