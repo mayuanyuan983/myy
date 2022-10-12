@@ -11,6 +11,9 @@ module.exports = {
 	'/page/wechat': require('../page/wechat/sidebar'),
 	'/page/project/git': require('../page/project/git/sidebar'),
 
+	
+	'/page/web-front': require('../page/web-front/sidebar'),
+
 	'/page/db/redis': require('../page/db/redis/sidebar'),
 	'/page/db/mysql': require('../page/db/mysql/sidebar'),
 	'/page/db/sql': require('../page/db/sql/sidebar'),

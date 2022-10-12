@@ -94,6 +94,31 @@ Wireshark
 
 snipaste截图 windows商店
 
+-  everything
+-  utool
+-  typora
+-  windows terminal
+-  石墨文档
+-  微信
+-  xshell、xftp
+-  idea
+-  postman
+-  apifox
+-  redisdesktopmanager
+-  navicat15
+-  notepad++
+-  微信开发者工具
+-  foxmail
+-  vscode
+-  向日葵
+-  git、svn
+-  jdk1.8
+-  maven
+-  node
+-  python
+-  snipaste、fastStoneCapture
+-  vmware
+
 ## 常用网站
 
 ### 前端UI

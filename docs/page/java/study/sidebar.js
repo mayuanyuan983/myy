@@ -11,6 +11,13 @@ module.exports = [
 		]
 	},
 	{
+		title:'arthas',
+		collapsable: true,
+		children:[
+		  '/page/java/study/notes/arthas',
+		]
+	},
+	{
 	  title:'Netty',
 	  collapsable: true,
 	  children:[

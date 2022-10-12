@@ -28,5 +28,5 @@ cd ../
 git add -A
 git commit -m '自动化部署脚本提交'
 git push -f git@github.com:mayuanyuan983/myy.git master
-echo 'SUCCESS'
+echo 'DEPLOY SUCCESS'
 # cd –
