@@ -67,10 +67,11 @@ module.exports = [
 		title:'终端',
 		collapsable: true,
 		children:[
-			'/page/install/notes/17',
-			'/page/install/notes/18',
-			'/page/install/notes/19',
-			'/page/install/notes/23',
+			'/page/install/notes/cmd/0',
+			'/page/install/notes/cmd/1',
+			'/page/install/notes/cmd/2',
+			'/page/install/notes/cmd/3',
+			'/page/install/notes/cmd/4',
 		]
 	},
 	{
