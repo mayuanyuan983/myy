@@ -1,5 +1,49 @@
 module.exports = [
     {
+        text: '笔记目录',
+        items: [
+            {
+                text: '开发语言',
+                items: [
+                    {
+                        text: 'Java',
+                        link: '/notes/language/java/'
+                    },
+                    {
+                        text: 'JavaScript',
+                        link: '/notes/language/javascript/'
+                    },
+                    {
+                        text: 'Python',
+                        link: '/notes/language/python/'
+                    }
+                ]
+            },
+            {
+                text: '开发工具',
+                items: [
+                    {
+                        text: '数据库',
+                        link: '/notes/db/'
+                    },
+                    {
+                        text: '运维',
+                        link: '/notes/operation/'
+                    },
+                    
+                    {
+                        text: '开发工具',
+                        link: '/notes/ide/'
+                    },
+                    {
+                        text: '版本控制',
+                        link: '/notes/version/'
+                    },
+                ]
+            },
+        ]
+    },
+    {
         text: '技术学习',
 		items: [
             {

@@ -1,6 +1,14 @@
-# jasypt加密
+# Jasypt
 
-## 1.pom引入
+::: tip 说明
+
+jasypt可以对配置文件中的明文密码进行加密的工具
+
+:::
+
+## 使用方式
+
+### pom文件引入依赖
 
 ```xml
 <dependency>
@@ -10,7 +18,7 @@
 </dependency>
 ```
 
-## 2.配置文件
+#### 配置文件加入密钥配置
 
 ```yml
 #jasypt加密
@@ -20,7 +28,7 @@ jasypt:
     #algorithm: PBEWithMD5AndDES #加密算法 可以不写 不写就是默认这个
 ```
 
-## 3.加解密的工具代码
+#### 加密测试类代码
 
 ```java
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
@@ -57,14 +65,14 @@ public class EncryptTests {
 }
 ```
 
-## 4.配置使用
+### 配置使用
 
 ```yml
 	username: root
 	password: ENC(U5XlkIYdaRcOUpsOz+Wsog==) #明文为root
 ```
 
-## 5.注意
+## 注意
 
 3.0.0 以后更改了加密算法
 
@@ -89,7 +97,11 @@ jasypt:
     iv-generator-classname: org.jasypt.iv.NoIvGenerator
 ```
 
-## 6.如果不想在配置里写密钥明文，改为在代码中配置密钥
+### 密钥配置其他方式
+
+- 启动脚本
+- 环境变量
+- 程序启动类
 
 ```java
 //程序启动类里
@@ -97,7 +109,7 @@ jasypt:
 System.setProperty("jasypt.encryptor.password", "wqeweqr");
 ```
 
-## 7.修改密文前后缀
+### 修改密文前后缀
 
 如果想修改密文的前后缀，可以进行如下的配置
 
@@ -111,4 +123,8 @@ jasypt:
       prefix: "ENC@["
       suffix: "]"
 ```
+
+
+
+
 

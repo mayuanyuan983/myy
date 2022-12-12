@@ -87,7 +87,6 @@ module.exports = [
 		title:'工具',
 		collapsable: true,
 		children:[
-		  '/page/java/java/notes/27',
 		  '/page/java/java/notes/28',
 		]
 	},
