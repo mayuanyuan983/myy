@@ -24,7 +24,7 @@ jasypt可以对配置文件中的明文密码进行加密的工具
 #jasypt加密
 jasypt:
   encryptor:
-    password: wqeweqr #密钥
+    password: mysalt #密钥
     #algorithm: PBEWithMD5AndDES #加密算法 可以不写 不写就是默认这个
 ```
 
@@ -35,11 +35,11 @@ import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
 
 public class EncryptTests {
 
-    private static final String PASSWORD_INFO = "wqeweqr";
+    private static final String PASSWORD_INFO = "mysalt";
 
     private static final String ALGORITHM_INFO = "PBEWithMD5AndDES";
     
-    private static final String text = "root";//待加密文本
+    private static final String text = "123456";//待加密文本
 
     public static void main(String[] args) {
         EncryptTests encryptTests = new EncryptTests();
@@ -61,6 +61,8 @@ public class EncryptTests {
         String password2 = standardPBEStringEncryptor.decrypt(password);
         //解密后的文本
         System.out.println("明文=" + password2);
+        
+        System.out.println("ENC(" + password + ") " + "#明文" + password2);
     }
 }
 ```
@@ -86,27 +88,27 @@ public class EncryptTests {
 </dependency>
 ```
 
-
+### 配置文件
 
 ```yml
 #jasypt加密
 jasypt:
   encryptor:
-    password: wqeweqr #密钥
+    password: mysalt #密钥
     #algorithm: PBEWithMD5AndDES #加密算法 可以不写 不写就是默认这个
     iv-generator-classname: org.jasypt.iv.NoIvGenerator
 ```
 
 ### 密钥配置其他方式
 
-- 启动脚本
-- 环境变量
+- 启动脚本 -Djasypt.encryptor.password=mysalt
+- 环境变量 
 - 程序启动类
 
 ```java
 //程序启动类里
 /**  配置加解密跟秘钥，与配置文件的密文分开放  */
-System.setProperty("jasypt.encryptor.password", "wqeweqr");
+System.setProperty("jasypt.encryptor.password", "mysalt");
 ```
 
 ### 修改密文前后缀
@@ -117,7 +119,7 @@ System.setProperty("jasypt.encryptor.password", "wqeweqr");
 #jasypt加密
 jasypt:
   encryptor:
-    password: wqeweqr #密钥
+    password: mysalt #密钥
     #algorithm: PBEWithMD5AndDES #加密算法 可以不写 不写就是默认这个
     property:
       prefix: "ENC@["
