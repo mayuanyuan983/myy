@@ -42,5 +42,9 @@ module.exports = [
 	{
 		title: 'Maven',
 		path:'/notes/language/java/notes/maven/0'
+	},
+	{
+		title: '面试',
+		path:'/notes/language/java/notes/interview/0'
 	}
 ]
