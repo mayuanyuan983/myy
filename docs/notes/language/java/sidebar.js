@@ -7,7 +7,8 @@ module.exports = [
 		title:'JAVA基础',
 		children: [
 			'/notes/language/java/notes/base/1',
-			'/notes/language/java/notes/base/2'
+			'/notes/language/java/notes/base/2',
+			'/notes/language/java/notes/base/3',
 		]
 	},
 	{
@@ -45,6 +46,14 @@ module.exports = [
 	},
 	{
 		title: '面试',
-		path:'/notes/language/java/notes/interview/0'
+		children: [
+			'/notes/language/java/notes/interview/0',
+			'/notes/language/java/notes/interview/1',
+			'/notes/language/java/notes/interview/2',
+			'/notes/language/java/notes/interview/3',
+			'/notes/language/java/notes/interview/4',
+			'/notes/language/java/notes/interview/5',
+		]
+		
 	}
 ]
