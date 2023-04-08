@@ -12,6 +12,13 @@ module.exports = [
 		]
 	},
 	{
+		title:'JVM',
+		children: [
+			'/notes/language/java/notes/base/4',
+			'/notes/language/java/notes/base/5',
+		]
+	},
+	{
 		title:'Spring',
 		children: [
 			{
@@ -29,6 +36,10 @@ module.exports = [
 		children: [
 			'/notes/language/java/notes/mybatis/1',
 			'/notes/language/java/notes/mybatis/2',
+			'/notes/language/java/notes/mybatis/3',
+			'/notes/language/java/notes/mybatis/4',
+			'/notes/language/java/notes/mybatis/5',
+			'/notes/language/java/notes/mybatis/6',
 		]
 	},
     {

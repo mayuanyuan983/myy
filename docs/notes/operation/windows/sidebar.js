@@ -7,4 +7,8 @@ module.exports = [
 		title:'Bat脚本',
 		path:'/notes/operation/windows/notes/0'
 	},
+	{
+		title:'其他',
+		path:'/notes/operation/windows/notes/1'
+	},
 ]

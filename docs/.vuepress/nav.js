@@ -41,7 +41,11 @@ module.exports = [
                     },
                 ]
             },
-        ]
+            {
+                text: 'TODO',
+                link: '/notes/TODO'
+            }
+        ],
     },
     {
         text: '技术学习',
